@@ -1,0 +1,245 @@
+/*===============*/
+/*=== General ===*/
+/*===============*/
+
+.content-extended {
+	height: 600px;
+	background :url("../img/layout/layout-central-carnet-extended.png") no-repeat ;
+	background-position: center center;
+}
+
+/*=============*/
+/*=== Forms ===*/
+/*=============*/
+
+h3.admin {
+	margin:0 auto 15px auto;
+	width:100%;
+	text-align: center;
+}
+
+p.form {
+		
+}
+
+label {
+	color: #B4886B;
+	font-weight: bold;
+	width: 140px;
+	text-align:right;
+	margin: 0px 5px 5px 5px;
+	display: block;
+	clear:both;
+}
+label:after{
+	content: " : "
+}
+
+label.simple {
+	float: left;
+}
+
+label.textarea {
+}
+
+input.simple {
+	margin: 5px 5px 5px 5px;
+	display: block;
+	width: 530px;
+	/*float: left;
+	clear:both;*/
+}
+
+input.file {
+	position: relative;
+	width: 445px;
+}
+div.fakefile {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+textarea.simple {
+	margin: 5px 5px 5px 5px;
+	display: block;
+	/*width: 95%;*/
+	height: 100px;
+	/*clear:both;*/
+	/*float: left;*/
+}
+
+input.submit {
+	margin: 5px auto 5px auto;
+	display: block;
+	width: auto;
+	clear:both;
+}
+
+.cke_contents {
+	height: 75px !important;
+}
+.cke_skin_kama {
+	width: 520px !important;
+	position: relative;
+	top: -20px;
+	left: 150px;
+	margin-bottom: -20px;
+	/*float:left;*/
+}
+
+/*============*/
+/*=== News ===*/
+/*============*/
+div.news-list-footer span.admin {
+	float:right;
+	text-align: center;
+	width: 80px;
+	background-color: #3166aa;
+	color: white;
+	margin-right: 10px;
+}
+
+div.news-list-footer span.admin-ok {
+	background-color: green;
+}
+
+div.news-list-footer span.admin-ko {
+	background-color: red;
+}
+div.news-list-footer span:hover {
+	background-color: #3166ff;
+}
+
+div.news-actions span.admin {
+	float:right;
+	text-align: center;
+	width: 100px;
+	background-color: #3166aa;
+	color: white;
+	margin-right: 10px;
+}
+
+div.news-actions span.admin-ok {
+	background-color: green;
+}
+div.news-actions span.admin-ko {
+	background-color: red;
+}
+div.news-actions span:hover {
+	background-color: #3166ff;
+}
+
+/*====================*/
+/*=== Press Review ===*/
+/*====================*/
+
+ul.pressreview-list li {
+	padding-bottom: 15px;
+	clear: both;
+}
+
+ul.pressreview-list span.admin {
+	display: block;
+	float: left;
+	text-align: center;
+	width: 100px;
+	height: 15px;
+	background-color: #3166aa;
+	color: white;
+	font-size: 10px;
+	margin-right: 10px;
+}
+
+ul.pressreview-list span.admin-ok {
+	background-color: green;
+}
+ul.pressreview-list span.admin-ko {
+	background-color: red;
+}
+
+ul.pressreview-list li span.admin a {
+	color: white;	
+}
+
+ul.pressreview-list li span.admin a:hover {
+	color: white;	
+}
+
+ul.pressreview-list span.admin:hover {
+	background-color: #3166ff;
+}
+
+/*=================*/
+/*=== Slideshow ===*/
+/*=================*/
+
+div.slides_container {
+	height: 250px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	clear:both;
+}
+
+div.slideshow-admin-footer  span.admin {
+	display: block;
+	float: left;
+	text-align: center;
+	width: 100px;
+	height: 20px;
+	background-color: #3166aa;
+	color: white;
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+div.slideshow-admin-footer span.admin-ok {
+	background-color: green;
+}
+div.slideshow-admin-footer span.admin-ko {
+	background-color: red;
+}
+
+div.slideshow-admin-footer span.admin a {
+	color: white;	
+}
+
+div.slideshow-admin-footer span.admin a:hover {
+	color: white;	
+}
+
+div.slideshow-admin-footer span.admin:hover {
+	background-color: #3166ff;
+}
+
+/*===============*/
+/*=== Article ===*/
+/*===============*/
+div.article_actions span.admin {
+	float:left;
+	text-align: center;
+	width: 100px;
+	background-color: #3166aa;
+	color: white;
+	margin-right: 10px;
+}
+
+div.article_actions span.admin-ok {
+	background-color: green;
+}
+
+div.article_actions span.admin-ko {
+	background-color: red;
+}
+div.article_actions span:hover {
+	background-color: #3166ff;
+}
+
+div.article_actions span.admin a {
+	color: white;	
+}
+
+div.article_actions span.admin a:hover {
+	color: white;	
+}

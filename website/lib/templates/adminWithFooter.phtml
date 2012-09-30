@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<?php include($this->path . '/lib/includes/header/header-admin.inc'); ?>
+	</head>
+	<body>
+		<div id="container">
+			<div id="middle-left">
+			  <div id="calcul"></div>
+			</div>
+		
+			<div id="middle-center">
+				<div id="middle-top">&nbsp;</div>
+				
+				<div id="middle-mid">
+					<?php include($this->path . '/lib/includes/nav/nav-admin.inc'); ?>
+					<div id="content" class="content-normal">
+						<?php include($this->central)?>
+						<?php 
+						if ($this->centralFooter != NULL && $this->centralFooter != '') { 
+							include($this->centralFooter);
+						}
+						?>
+					</div>
+				</div>
+				<div id="middle-bottom">&nbsp;</div>
+			</div>		
+		<div id="middle-right">&nbsp;</div>	
+		</div>
+	</body>
+</html>

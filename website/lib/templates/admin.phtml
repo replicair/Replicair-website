@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<?php include($this->path . '/lib/includes/header/header-admin.inc'); ?>
+	</head>
+	<body>
+		<script>
+	            $(function(){
+	                $("#content_top").slides({
+	                	effect: 'fade',
+	                	play: 5000,
+	                	pagination: true,
+	                	generatePagination: true,
+	                	generateNextPrev: true,
+	                	paginationClass: 'slidePagination',
+	                	currentClass: 'slideCurrent'
+		                	
+	                });
+	            });
+	    </script>
+		<div id="container">
+				<div id="middle-left">
+				  <div id="calcul"></div>
+				</div>
+			
+				<div id="middle-center">
+					<div id="middle-top">&nbsp;</div>
+					<?php include($this->central)?>
+					<div id="middle-bottom">&nbsp;</div>
+				</div>		
+				<div id="middle-right">&nbsp;</div>
+	
+		</div>
+	</body>
+</html>

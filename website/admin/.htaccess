@@ -1,0 +1,4 @@
+PerlSetVar AuthFile replicair/admin/password/.htpasswd
+AuthName "Acces Restreint"
+AuthType Basic
+require valid-user

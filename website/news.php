@@ -2,7 +2,8 @@
 include_once ("lib/classes/Properties.php");
 include_once(SITE_PATH . '/lib/classes/Template.php');
 include_once(SITE_PATH . '/lib/classes/ReplicairController.php');
+
 $controller = new ReplicairController();
-$t = $controller->handleRequest($_GET,$_POST,"index");
+$t = $controller->handleRequest($_GET,$_POST,"news");
 $t->render($t->template);
 ?>

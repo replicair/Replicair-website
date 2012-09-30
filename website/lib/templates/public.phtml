@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<?php include($this->path . '/lib/includes/header/header.inc'); ?>
+	</head>
+	<body>
+	<div id="container">
+			<div id="middle-left">
+				<div id="sponsors-l" style="margin-top: 810px;">
+				  	<a href="http://www.fondation-patrimoine.org/" target="blank"><img src="<?php echo $this->root ?>content/partners/partner-fondationpatrimoine-white.png" style="display:block; float:right;height: 120px;" /></a>
+				  	<a href="http://www.chalair.fr" target="blank"><img src="<?php echo $this->root ?>content/partners/partner-etoilechalair-white.png" /></a>
+			  	</div>
+			</div>
+			<div id="middle-center">
+				<div id="middle-top">&nbsp;</div>
+				<div id="middle-mid">
+					<?php include($this->path . '/lib/includes/nav/nav.inc'); ?>
+					<div id="content" class="content-normal">
+						<?php include($this->central)?>
+						<?php 
+						if ($this->centralFooter != NULL && $this->centralFooter != '') {
+							include($this->centralFooter);
+						}
+						?>
+					</div>
+					<?php include($this->path . '/lib/includes/util/news-panel.inc'); ?>
+				</div>
+				<div id="middle-bottom">
+					<div class="footercontent">
+						<a href="http://www.fondation-patrimoine.org/fr/midi-pyrenees-16/tous-les-projets-765/detail-morane-saulnier-type-g-12971" target="blank">
+							<img alt="Lien vers don" src="<?php echo $this->root ?>img/various/esprit_pionnier.jpg" style="display:block; margin: auto;">
+						</a>
+						<a href="mentions.php">&copy;Replic'Air 2012 tous droits réservés.</a>
+					</div>
+				</div>
+			</div>		
+			<div id="middle-right">
+				<div id="sponsors-r" style="padding-left: 30px; margin-top: 910px;">
+			  		<a href="http://www.derichebourg.com/pages_fr/multiservices/centre_formation_ms.php" target="blank"><img src="<?php echo $this->root ?>content/partners/partner-derichebourgevolutionformation-white.png" /></a>
+			  	</div>
+			</div>
+		</div>
+	</body>
+</html>
