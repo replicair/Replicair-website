@@ -18,7 +18,7 @@ class SlideshowController extends ManagedObjectController {
 	var $hasFile = TRUE;
 	var $fileBasename = 'slideshow';
 	var $fileDefaultName = 'slideshow-default.png';
-	var $objectFileLocation = '../content/slideshow/';
+	var $objectFileLocation = "content/slideshow/";
 	
 	/**
 	 * Override parent

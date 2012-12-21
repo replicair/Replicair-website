@@ -2,7 +2,7 @@
 <div class="news-list">
 	<a href="news.php?page=<?php echo $this->pagination->pageCurrent ?>&id=<?php echo $object->id ?>">
 	<div class="news-list-image">
-		<img src="<?php echo $this->fileLocation . $object->filename ?>" alt="<?php $object->filename ?>" />
+		<img src="<?php echo $this->fileLocation . $object->filenameList ?>" alt="<?php $object->filenameList ?>" />
 	</div>
 	</a>
 	<div class="news-list-content">
@@ -14,7 +14,7 @@
 		<span>
 			<a href="news.php?page=<?php echo $this->pagination->pageCurrent ?>&id=<?php echo $object->id ?>">> Lire la suite</a>
 		</span>
-		<?php include($this->path . '/lib/includes/util/social.inc') ?>
+		<?php //include($this->path . '/lib/includes/util/social.inc') ?>
 		
 	</div>
 </div>

@@ -13,11 +13,11 @@
 			<div class="slides_container">
                 <div class="slides_content">
                 	<div class="slide_desc">
-                		<h3><?php echo $object->title ?></h3>
-                		<h4><?php echo $object->subtitle ?></h4>
-                		<p><?php echo $object->content ?></p>
+                		<h3><?php echo $object->subtitle ?></h3>
+                		<h4><?php echo $object->title ?></h4>
+                		<?php echo $object->content ?>
                 	</div>
-                	<img src="<?php echo $this->fileLocation.$object->filename ?>" alt="slideshow-image" />
+                	<img src="../<?php echo $this->fileLocation.$object->filename ?>" alt="slideshow-image" />
                 </div>
             </div>
 			<div class="slideshow-admin-footer">

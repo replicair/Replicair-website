@@ -17,7 +17,7 @@
 	<script type="text/javascript">
 	    jwplayer("video").setup({
 	        flashplayer: "player/player.swf",
-	        file: "../content/video/video.mp4",
+	        file: "http://youtu.be/BaAUos7hcp0",
 	        height: 170,
 	        width: 170,
 	        wmode:"transparent",

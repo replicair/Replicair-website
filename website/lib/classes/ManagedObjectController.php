@@ -34,14 +34,14 @@ class ManagedObjectController {
 	var $hasFile = FALSE;
 	var $fileBasename = 'file';
 	var $fileDefaultName = 'file-default.png';
-	var $objectFileLocation = 'content/';
+	var $objectFileLocation = '/content/';
 	
 	var $defaultTemplate = 'admin.phtml';
 	
 	public function ManagedObjectController() {
 		//$this->objectFileLocation = $root.$this->objectFileLocation;
 		//$this->pageListDefaultLink = $root.$this->pageListDefaultLink;
-		$this->objectFileLocation = SITE_ROOT.$this->objectFileLocation;
+		$this->objectFileLocation = $this->objectFileLocation;
 		//echo $this->pageListDefaultLink;
 	}
 		

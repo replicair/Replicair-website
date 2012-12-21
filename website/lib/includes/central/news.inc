@@ -13,7 +13,7 @@
 </div>
 <div class="news-actions">
 	<!-- <img src="/img/social/comment.jpg" alt="comment" />-->
-	<?php include($this->path . '/lib/includes/util/social.inc') ?>
+	<?php //include($this->path . '/lib/includes/util/social.inc') ?>
 </div>
 <script>
 		(function($){

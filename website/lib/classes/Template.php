@@ -7,6 +7,7 @@ class Template {
     	
     	$this->root = SITE_ROOT;
     	$this->path = SITE_PATH;
+    	$this->rootImg = SITE_IMG_PATH;
     	if ($template_dir !== null) {
             // Check here whether this directory really exists
             $this->template_dir = $template_dir;

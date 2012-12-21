@@ -7,7 +7,7 @@ class News {
 	}
 	
 	const fileDefaultName = "news-default.jpg";
-	const fileDefaultLocation = 'content/news/';
+	const fileDefaultLocation = '/content/news/';
 	
 	var $id;
 	var $title;
@@ -16,6 +16,8 @@ class News {
 	var $abstractShort;
 	var $content;
 	var $filename;
+	var $filenameList;
+	var $filenamePanel;
 	var $state;
 	var $date;
 }

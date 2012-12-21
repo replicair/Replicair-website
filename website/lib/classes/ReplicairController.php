@@ -94,6 +94,9 @@ class ReplicairController extends SimpleController {
 			elseif ($page == $this->parameterPageGallery) {
 				return $this->handlePageSimple($this->targetPageGallery);
 			}
+			elseif ($page == "gallery2") {
+				return $this->handlePageSimple("lib/includes/central/gallery2.inc");
+			}
 			else {
 				return $this->handlePageIndex($get, $post);
 			}

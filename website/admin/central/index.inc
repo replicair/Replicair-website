@@ -9,7 +9,7 @@
                 					<p>Cette partie vous permet de gérer le contenu du site : articles, news, revue de presse...</p>
                 					<p>Vous pourrez créer, modifier, activer (ou désactiver) le contenu.</p>
                 				</div>
-                    			<img src="<?php echo $this->root ?>content/admin/admin-content.jpg" alt="gestion-contenu" />
+                    			<img src="<?php echo $this->rootImg ?>content/admin/admin-content.jpg" alt="gestion-contenu" />
                 			</div>
                 			<div class="slides_content">
                 				<div class="slide_desc" style="text-align: justify">
@@ -17,7 +17,7 @@
                 					<p>Des tooltips sont présent sur les champs pour vous orienter sur la manière de les renseigner.</p>
                 					<p>Laisser votre souris sur le nom du champs pour obtenir ces informations !</p>
                 				</div>
-                    			<img src="<?php echo $this->root ?>content/admin/admin-typing.jpg" alt="aide-saisie"/>
+                    			<img src="<?php echo $this->rootImg ?>content/admin/admin-typing.jpg" alt="aide-saisie"/>
                 			</div>
                 			<div class="slides_content">
                 			    <div class="slide_desc" style="text-align: justify">
@@ -25,7 +25,7 @@
                 					<p>Pour tous les contenus, vous pouvez les visualiser tels qu'ils apparaitront.</p>
                 					<p>A vous de choisir de les activer si vous voulez les rendre disponible sur le site public.</p>
                 				</div>
-                    			<img src="<?php echo $this->root ?>content/admin/admin-check.jpg" alt="verification"/>
+                    			<img src="<?php echo $this->rootImg ?>content/admin/admin-check.jpg" alt="verification"/>
                 			</div>
             			</div>
         			</div>

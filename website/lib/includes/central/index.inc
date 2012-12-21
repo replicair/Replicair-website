@@ -18,7 +18,7 @@
         	<div class="slide_desc">
             	<h3><?php echo $slideshow->subtitle  ?></h3>
                 <h4><?php echo $slideshow->title  ?></h4>
-                <p><?php echo $slideshow->content  ?></p>
+                <?php echo $slideshow->content  ?>
 			</div>
 			<img src="<?php echo $this->slideshowFileLocation.$slideshow->filename  ?>" alt="<?php echo $slideshow->filename ?>" />
 		</div>

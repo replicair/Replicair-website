@@ -24,10 +24,10 @@
 						}
 						if ($object->file != null and $object->file != "") {
 							if ($object->fileType == "pdf") {
-								echo " - <a href='".$this->root."lib/script/download.php?type=pressreview&filename=".$object->file."'><img src='".$this->root."img/icons/pdf.gif' alt='".$object->file."' /></a>";
+								echo " - <a href='".$this->rootImg."lib/script/download.php?type=pressreview&filename=".$object->file."'><img src='".$this->root."img/icons/pdf.gif' alt='".$object->file."' /></a>";
 							}
 							else {
-								echo " - <a href='".$this->root."lib/script/download.php?type=pressreview&filename=".$object->file."'>".$object->file."</a>";
+								echo " - <a href='".$this->rootImg."lib/script/download.php?type=pressreview&filename=".$object->file."'>".$object->file."</a>";
 							}
 						}
 						?>

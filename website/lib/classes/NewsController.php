@@ -21,7 +21,7 @@ class NewsController extends ManagedObjectController {
 	var $hasFile = TRUE;
 	var $fileBasename = 'news';
 	var $fileDefaultName = 'news-default.jpg';
-	var $objectFileLocation = 'content/news/';
+	var $objectFileLocation = '/content/news/';
 	
 	var $dateFormatView = "d.m.y";
 	
@@ -64,6 +64,8 @@ class NewsController extends ManagedObjectController {
 			if ($object->filename == NULL or $object->filename == "") {
 				$object->filename = $this->fileDefaultName;
 			}
+			$object->filenamePanel = "116x90.".$object->filename;
+			$object->filenameList = "125x85.".$object->filename;
 			// prepare date formatted for field update
 			$date = new DateTimeCustom($object->date);
 			$object->date = $date->format($this->dateFormatView);
@@ -80,6 +82,8 @@ class NewsController extends ManagedObjectController {
 		if ($object->filename == NULL or $object->filename == "") {
 			$object->filename = $this->fileDefaultName;
 		}
+		$object->filenamePanel = "116x90.".$object->filename;
+		$object->filenameList = "125x85.".$object->filename;
 		return $object;
 	}
 	
@@ -106,7 +110,7 @@ class NewsController extends ManagedObjectController {
 			$t->newsPreviewList = $newsList;
 			$date = new DateTimeCustom(DateTimeCustom::NOW);
 			$t->newsPreviewDate = $date->format("d F");
-			$t->newsFileLocation = SITE_ROOT . News::fileDefaultLocation;
+			$t->newsFileLocation = News::fileDefaultLocation;
 		}
 		if (!isset($parameters["page"])) {
 			$page = "1";

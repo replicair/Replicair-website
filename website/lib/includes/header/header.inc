@@ -29,3 +29,4 @@
 		<script type="text/javascript" src="js/jquery.mCustomScrollbar.min.js"></script>
 		<script type="text/javascript" src="player/jwplayer.js"></script>
 		<script type="text/javascript"  src="galleria/galleria-1.2.8.min.js"></script>
+		<script type="text/javascript"  src="galleria/plugins/picasa/galleria.picasa.js"></script>

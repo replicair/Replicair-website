@@ -13,7 +13,7 @@
 	<div id="content" class="content-normal">
 		<div id="news-control" style="height: 20px;width:790px;">
 			<a href="news.php?action=list&page=<?php echo $this->page ?>">
-			<img  class="close"  src="<?php echo $this->root ?>img/style/close.png" alt="fermer" />
+			<img  class="close"  src="<?php echo $this->rootImg ?>img/style/close.png" alt="fermer" />
 			</a>
 		</div>
 		<div id="news" class="news">

@@ -4,7 +4,7 @@ class Article {
 	
 	public function Article() {
 		$this->fileDefaultName = "article-default.png";
-		$this->fileDefaultLocation = SITE_ROOT . 'content/articles/';
+		$this->fileDefaultLocation = SITE_IMG_PATH . 'content/articles/';
 		$this->filename = $this->fileDefaultName;
 		$this->categories = array("replicair" => "Association",
 				"project" => "Projet",

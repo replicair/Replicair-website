@@ -23,7 +23,7 @@
 					<a href="news-list.php">
 					<div class="newsPreview">	
 						<div class="newsPreviewView">
-							<img src="<?php echo $this->newsFileLocation.$newsPreview->filename  ?>" />
+							<img src="<?php echo $this->newsFileLocation.$newsPreview->filenamePanel  ?>" />
 						</div>
 						<div class="newsPreviewContent">
 							<p class="newsPreviewTitle"><?php echo $newsPreview->titleShort  ?></p>

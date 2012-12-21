@@ -136,6 +136,7 @@ ul.menu  li
 	color: white;
 	margin-left: 10px;
 	margin-right: 10px;
+	margin-top: 5px;
 	font-size: 12pt;
 }
 
@@ -150,7 +151,7 @@ ul.slidePagination
 	list-style-type: none;
 	margin:5px auto 0;
     padding:0;
-    width: 90px;
+    width: 110px;
     /*float: right;*/
 }
 ul.slidePagination  li
@@ -509,7 +510,7 @@ div.pagination a.pagination-next {
 }
 
 .slides_content_partner a {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	display: block;
 	float:left;
 
@@ -535,7 +536,7 @@ ul.slidePagination_partner
 	list-style-type: none;
 	margin:5px auto 0;
     padding:0;
-    width: 66px;
+    width: 88px;
     /*float: right;*/
 }
 ul.slidePagination_partner  li
@@ -715,15 +716,34 @@ img.close {
 /*==============*/
 /*=== Footer ===*/
 /*==============*/
+div.footerseparator {
+	height: 20px;
+}
+
 div.footercontent {
 	text-align:center;
-	margin-top:15px;
+	/*padding-top:20px;*/
+	background-color : white;
+	border: 1px solid black;
+	height: 100px;
 }
 
 div.footercontent a,a:visited {
 	color: white;	
 }
 div.footercontent a:hover,a:active {
+	color: silver;	
+}
+
+div.footermentions {
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+div.footermentions a,a:visited {
+	color: white;	
+}
+div.footermentions a:hover,a:active {
 	color: silver;	
 }
 
@@ -815,7 +835,8 @@ ul.compact {
     background: url('../img/layout/layout-left.png') no-repeat scroll 0 0 transparent;
 	background-position:right top;
 	width:269px;
-	height:inherit;
+	/*height:inherit;*/
+	height:999px;
     float:left;
     display:inline;
 
@@ -861,17 +882,18 @@ ul.compact {
     background: url("../img/layout/layout-right.png") no-repeat scroll 0 0 transparent;
     background-position:left top;
     width:269px;
-    height: inherit;
+    /*height: inherit;*/
+    height:999px;
     float:left; 
 	}
 #bottom
 	{
 	clear: left;
-    background: url("../img/bp_b.png") no-repeat scroll 0 0 transparent;
+    background: url("../img/layout/layout-center-bottom.png") no-repeat scroll 0 0 transparent;
     background-position:center top;
     display: block;
     margin:auto;
-    height: 100px;
+    height: 150px;
 	}
 
 

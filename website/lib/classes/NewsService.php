@@ -25,6 +25,9 @@ class NewsService extends DatabaseService {
 		}
 		$news->date = $row['dateOut'];
 		$news->state = $row['state'];
+		
+		$news->filenamePanel = "116x90.".$news->filename;
+		$news->filenameList = "125x85.".$news->filename;
 	
 		return $news;
 	}

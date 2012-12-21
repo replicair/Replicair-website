@@ -12,7 +12,7 @@
 		?>
 		<div class="news-list">
 			<div class="news-list-image">
-				<img src="<?php echo $this->fileLocation . $object->filename ?>" alt="<?php $object->filename ?>" />
+				<img src="<?php echo $this->fileLocation . $object->filenameList ?>" alt="<?php $object->filename ?>" />
 			</div>
 			<div class="news-list-content">
 				<h3><?php echo $object->date ?> - <?php echo $object->title ?></h3>
