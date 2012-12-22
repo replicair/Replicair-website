@@ -18,7 +18,7 @@ class MailController {
 		$object->from = $parameters['mail_from'];
 		$object->phone = $parameters['mail_phone'];
 		$object->name = $parameters['mail_name'];
-		$object->capcha = $parameters['captcha_code'];
+		//$object->capcha = $parameters['captcha_code'];
 		return $object;
 	}
 	
@@ -33,11 +33,11 @@ class MailController {
 		$regexpString = '/^[A-Za-z .\'-]+$/';
 		$regexpMail = '/^[a-z0-9]+([_\\.-][a-z0-9]+)*@([a-z0-9]+([\.-][a-z0-9]+)*)+\\.[a-z]{2,}$/i';
 		
-		$securimage = new Securimage();
+		/*$securimage = new Securimage();
 		if ($securimage->check($mail->capcha) == false) {
 			array_push($errors,"Le code fourni ne correspondait pas à l'image générée, veuillez réessayer.");
 			return $errors;
-		}
+		}*/
 		
 		if (empty($mail->from) && empty($mail->phone)) {
 			array_push($errors,"Le courriel ou le téléphone sont nécessaires pour que nous puissions vous recontacter.");

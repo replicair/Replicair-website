@@ -59,6 +59,7 @@
  			<label class="public textarea" for="form-email-message">Message</label>
  			<textarea class="public" type="text" id="form-email-message" name="mail_message"><?php echo $this->mail->message ?></textarea>
  		</p>
+ 		<!-- 
  		<div style="margin-top:10px; width: 100%">
  			<img style="margin: auto; margin-top:10px; display: block; clear: both; width: 200px;" id="captcha" src="<?php echo $this->rootImg ?>lib/script/securimage/securimage_show.php" alt="CAPTCHA Image" />
  			<div style="width: 130px; margin: auto;">
@@ -66,6 +67,7 @@
  				<input type="text" name="captcha_code" size="10" maxlength="6" />
  			</div>
 		</div>
+		 -->
  		<p class="form" style="text-align:right; margin-right: 80px;">
  			<?php if ($this->mailResult == "KO") { ?>
  			<img src="<?php echo $this->rootImg ?>img/style/error.png" alt="erreur" title="Montrer les erreurs" style="width: 50px;cursor: pointer;" onclick="showHide('show','errors')" />
