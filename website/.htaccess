@@ -1,0 +1,8 @@
+php 5
+Options +FollowSymLinks
+<IfModule mod_rewrite.c>
+    RewriteEngine on    
+	RewriteRule ^/index.php /news-list.php
+	#RewriteRule ^/website/news/([0-9]+)$ /website/news.php?page=1&id=$1
+	RewriteRule ^/website/news /website/news.php?page=1&id=29
+</IfModule>
