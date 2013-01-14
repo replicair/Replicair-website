@@ -20,7 +20,8 @@
 		<li>Conception et Rédaction : Arnaud Montroya</li>
 		<li>WebDesigner : Arnaud Montoya , Sébastien Dominguez</li>
 		<li>WebDevelopper : Ludovic Richert, Matthias Peuget</li>
-		<li>Hébergement : matériels informatiques de la société OVH.net</li>
+		<li>Developper : Sébastien Antony</li>
+		<li>Hébergement : OVH.net - 000webhost</li>
 	</ul>
 </div>
 <div id="credits-right" class="compact" style="float: right; width:380px;">
