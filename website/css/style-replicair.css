@@ -515,7 +515,11 @@ div.pagination a.pagination-next {
 	float:left;
 
 	}
-
+img.partners-logo {
+	display: block;
+	float:left;
+	
+}
 .slide_center {
 	width: 608px;
 	margin:auto;
